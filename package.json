@@ -20,5 +20,12 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "npm@8.3.0"
+  "packageManager": "npm@8.3.0",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.3",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.2"
+  }
 }

@@ -1,0 +1,25 @@
+query GetRequests {
+  getRequests {
+    id
+    requestor
+    title
+    body
+    dateCreated
+  }
+}
+
+mutation DeleteByID($requestId: String!) {
+  deleteRequest(requestID: $requestId)
+}
+
+mutation CreateRequest($inputs: CreateRequestInputs!) {
+  createRequest(data: $inputs) {
+    id
+  }
+}
+
+mutation EditRequest($inputs: EditRequestInputs!) {
+  editRequest(data: $inputs) {
+    id
+  }
+}
